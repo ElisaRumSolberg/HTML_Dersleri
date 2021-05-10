@@ -1,0 +1,39 @@
+* {
+  text-align: center;
+}
+h1 {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  margin: top 30px;
+  /* margin-top: ; ustteki ile olan bosluk*/
+  background-color: aqua;
+}
+.tablo {
+  /* solid | double| dsahed */
+  /* cizgi kalinligi |cizgituru| renk */
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  /* yuzdelik dilim sayfaya gore hesaplanir */
+}
+/* birden fazla atritubt e ayni stillendirme yapilacaksa virgi ile ayrilarak yazilabilir */
+th,
+td {
+  border: 4px solid black;
+}
+th {
+  background-color: blueviolet;
+}
+tr:hover {
+  background-color: azure;
+  /* bu bize inlec ustune gelince renk degistirmeyi sagliyor */
+}
+tr:nth-child(even) {
+  background-color: darkgrey;
+  /* bu bize satirlarda zebralama sagliyor*/
+}
+/* th:nth-child() { 
+ bize sutunarda zebralama yapiyor 
+ } */

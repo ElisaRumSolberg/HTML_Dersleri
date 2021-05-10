@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML |TABLO EKLE|CSS INLINE</title>
+  </head>
+  <!-- <style></style> burada olunca artik CSS icinde oluyoruz -->
+  <style>
+    /* bu alan CSS kodlari icerir*/
+    /* CSS Sellector ile istenilen HTML elemanina stillendirm yapilabilir */
+    /*style etiketiile yapilan stillendirmeler sadece bu dosyalar icin gecerli olur
+    eger tum proje icin global bir stillendirme yapmak icin harici bir .CSS DOSYASI
+    olusturmak gerekir ve bu dosyayi HTML e import etmek gerekir
+   "*"  CSS DE HERSEY ANLAMINA GELIYOR
+    */
+    * {
+      text-align: center;
+    }
+    h1 {
+      color: rebeccapurple;
+      font-size: 45px;
+      text-align: center;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      margin-top: 40px;
+    }
+    p {
+      color: brown;
+      font-size: 40;
+    }
+    #p1 {
+      color: crimson;
+      text-align: left;
+    }
+    .p2 {
+      color: darkgreen;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 18;
+      text-align: justify;
+    }
+  </style>
+  <body style="background-color: ghostwhite">
+    <!-- style attribute ile verilen ozellikler aslinda CSS stillendirmelerdir. bu seklideyapilan stillendirmeye inline CSS denilir -->
+    <!-- <h1 style="color: red">TABLO EKLEME</h1> -->
+    <h1>Tablo Ekleme</h1>
+    <h1>CSS Stillendirme</h1>
+    <!-- id bir CSS selectordur ve tek element stillendirecek ise kullanak da mantiklidir. id ye erisim stillendirmede # kullanilir -->
+    <!-- HTML ,CSS de isimlendirme yapilirken kebap-case kullanilir (yaniaraya - konularak yazilir)-->
+
+    <p id="p1">bu bir paragraftir</p>
+    <!-- class selector ise grup bicimlendirmesi icin kullaniliri p2 ye erismek icin nokta(.) kulanilir -->
+    <p class="p2">bu da baska bir paragraftir</p>
+    <p>CSS HTML e gore daha fazla detay icerir</p>
+  </body>
+</html>

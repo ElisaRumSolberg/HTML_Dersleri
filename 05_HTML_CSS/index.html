@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM OLUSTURMA</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Formlar</h1>
+    <form action="kaydet.php">
+      <label for="ad">Adniz:</label>
+      <input
+        class="input"
+        id="ad"
+        type="text"
+        name="ad"
+        value=""
+        placeholder="epostanizi giriniz"
+      />
+      <br />
+      <label for="eposta">Eposta:</label>
+      <input
+        class="input"
+        id="email"
+        type="email"
+        name="email"
+        value=""
+        placeholder="epostanizi giriniz"
+      />
+      <!-- bize kutucugun icinde ne yazacagimizin bilgisini verir -->
+      <br />
+
+      <label for="password">Password</label>
+      <input
+        class="input"
+        id="sifre"
+        text="password"
+        name="sifre"
+        value=""
+        required=""
+        placeholder="Sifreniz"
+      />
+      <br />
+      <label for="sayi">Yasiniz</label>
+      <input
+        class="input"
+        id="sayi"
+        type="number"
+        name="yas"
+        value=""
+        min="0"
+        max="100"
+      />
+      <br />
+      <input type="submit" value="Gonder" />
+      <br />
+      <input type="button" value="Temizle" />
+    </form>
+  </body>
+</html>
