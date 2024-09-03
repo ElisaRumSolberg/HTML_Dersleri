@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  padding: 30px;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  color: #2e3a59;
+  margin-bottom: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.day {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.day h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.day ul {
+  padding-left: 20px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.day:hover {
+  transform: scale(1.02);
+  background-color: #e3f2fd;
+}
+
+/* Renkler */
+.weekday {
+  border-left: 5px solid #a01fc1;
+}
+
+.weekend {
+  border-left: 5px solid #d44c07;
+}
