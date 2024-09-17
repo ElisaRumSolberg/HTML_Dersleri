@@ -1,0 +1,125 @@
+/* Genel Ayarlar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero Bölümü */
+.hero {
+  background: linear-gradient(135deg, #7f7fd5, #86a8e7, #91eae4);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Kurslar Bölümü */
+.course-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.course-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.course-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.course-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+/* Etiketler */
+.tag {
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 4px 6px 0 0;
+  font-size: 0.75rem;
+  border-radius: 20px;
+  background-color: #eee;
+  color: #555;
+}
+
+.tag.frontend { background-color: #cce5ff; color: #0056b3; }
+.tag.backend { background-color: #d4edda; color: #155724; }
+.tag.design { background-color: #ffe5b4; color: #a85600; }
+.tag.beginner { background-color: #f8d7da; color: #721c24; }
+.tag.intermediate { background-color: #fff3cd; color: #856404; }
+
+/* Buton */
+.btn {
+  margin-top: 12px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7f7fd5;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #5f5fc9;
+}
+
+/* Footer */
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
