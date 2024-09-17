@@ -1,0 +1,84 @@
+/* Genel ayarlar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f9f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero alanı */
+.hero {
+  background: linear-gradient(135deg, #a0e7e5, #b4f8c8);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0077ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fd1;
+}
+
+/* Özellikler bölümü */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.feature-box {
+  flex: 1 1 250px;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #f1faff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.feature-box h3 {
+  color: #0077ff;
+  margin-bottom: 10px;
+}
+
+.feature-box p {
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #e3f2fd;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
