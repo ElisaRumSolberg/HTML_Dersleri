@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f7f8;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.planner {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.planner h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.task-list {
+  list-style: none;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.task-list input[type="checkbox"] {
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+  accent-color: #4caf50;
+}
+
+.task-list label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.task-list input:checked + label {
+  text-decoration: line-through;
+  color: #aaa;
+}
