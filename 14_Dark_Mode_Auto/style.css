@@ -24,7 +24,7 @@ body {
   max-width: 400px;
 }
 
-/* 🌙 Dark mode ayarı */
+/* 🌙 Dark mode */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #121212;
