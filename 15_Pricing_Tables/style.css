@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f0f4f8;
+  padding: 50px 20px;
+}
+
+.pricing-section h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.card.popular {
+  border: 2px solid #6c63ff;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 2rem;
+  color: #6c63ff;
+  margin-bottom: 20px;
+}
+
+.price span {
+  font-size: 1rem;
+  color: #777;
+}
+
+.card ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.card ul li {
+  margin: 8px 0;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #574fd6;
+}
